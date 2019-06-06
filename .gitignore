@@ -10,3 +10,8 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+
+# Node_Modules folder. Takes up space that isn't required and can be created on node install
+
+binds_tf2/node_modules/*
