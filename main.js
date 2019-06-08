@@ -1,5 +1,5 @@
 // Modules to control application life and create native browser window
-const {app, BrowserWindow,webFrame} = require('electron')
+const {app, BrowserWindow} = require('electron')
 
 let win
 
@@ -13,8 +13,8 @@ function createWindow () {
     webPreferences: {
       nodeIntegration: true
     }
-  })
-
+  });
+  win.setContentSize(800,600);
   // and load the index.html of the app.
   win.loadFile('index.html')
 
@@ -28,6 +28,7 @@ function createWindow () {
     // when you should delete the corresponding element.
     win = null
   })
+  //console.log(screen.getPrimaryDisplay());
 }
 
 // This method will be called when Electron has finished
@@ -50,5 +51,5 @@ app.on('activate',function(){
   if (win === null) {
     createWindow()
   }
-  webFrame.setZoomFactor(1);
+  //webFrame.setZoomFactor(1);  
 })

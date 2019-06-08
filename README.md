@@ -2,7 +2,7 @@
 
 A simple GUI based tool in GoLang to manage keybinds.
 
-## Build instructions :
+## Build instructions
 
 1. Have node.js installed and running.
 

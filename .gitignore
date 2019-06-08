@@ -14,4 +14,4 @@
 
 # Node_Modules folder. Takes up space that isn't required and can be created on node install
 
-binds_tf2/node_modules/*
+node_modules/*
