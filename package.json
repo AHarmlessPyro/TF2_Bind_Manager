@@ -9,7 +9,7 @@
   "author": "Ninad Sinha",
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "electron": "^5.0.2",
+    "electron": "^13.6.6",
     "electron-context-menu": "^0.12.1"
   }
 }
